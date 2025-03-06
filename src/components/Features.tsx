@@ -12,7 +12,7 @@ const features = [
   {
     icon: Users,
     title: "Face Comparison",
-    description: "Compare your face with friends, celebrities, or anyone else to see who shares the most similarities."
+    description: "Compare your face with friends or anyone else to see who is more attractive."
   },
   {
     icon: Trophy,
