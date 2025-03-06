@@ -27,8 +27,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <a href="#" className="text-2xl font-bold text-foreground flex items-center">
-            <span className="bg-primary text-white px-2 mr-1 rounded">C</span>
-            <span>ompare AI</span>
+            Compare AI
           </a>
         </div>
 

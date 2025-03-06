@@ -1,4 +1,3 @@
-
 import { cn } from "@/lib/utils";
 
 const Footer = () => {
@@ -11,8 +10,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
               <a href="#" className="text-2xl font-bold text-foreground flex items-center">
-                <span className="bg-primary text-white px-2 mr-1 rounded">C</span>
-                <span>ompare AI</span>
+                Compare AI
               </a>
             </div>
             
