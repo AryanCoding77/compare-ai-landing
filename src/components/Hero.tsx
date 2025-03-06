@@ -1,17 +1,12 @@
-
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, Sparkles } from "lucide-react";
-
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
-
   useEffect(() => {
     setIsLoaded(true);
   }, []);
-  
-  return (
-    <section className="relative pt-24 pb-20 md:pt-32 md:pb-32 overflow-hidden">
+  return <section className="relative pt-24 pb-20 md:pt-32 md:pb-32 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/5 rounded-full filter blur-3xl opacity-60 animate-pulse-slow"></div>
@@ -28,12 +23,10 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-6 leading-tight">
-              Roast or Toast? Let AI <span className="text-primary">Rate Your Squad's Look</span>
+              Who Looks More Like <span className="text-primary">Their Celebrity Twin?</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-xl">
-              Compare facial features with friends, celebrities, or historical figures using advanced AI technology. See who matches best and climb our global leaderboard.
-            </p>
+            <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-xl">Compare facial features with friends, using advanced AI technology. See who matches best and climb our global leaderboard.</p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 py-6 text-lg flex items-center justify-center group">
@@ -75,8 +68,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
