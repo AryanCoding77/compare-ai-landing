@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-6 leading-tight">
-              Who Looks More Like <span className="text-primary">Their Celebrity Twin?</span>
+              Roast or Toast? Let AI <span className="text-primary">Rate Your Squad's Look</span>
             </h1>
             
             <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-xl">
